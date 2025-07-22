@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cafe</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-        <div class="wrapper" background-color="#FFFFFF"> 
+        <div class="wrapper"> 
             <div class="header">
                 <h1>Кафе "Уютное Место"</h1>
                 <p>Лучшее место для ваших встреч и отдыха</p>
             </div>
             <div class="container">
-                <div>
+                <div> 
+                    <!-- тут вопросик по поводу лишнего div-->
                     <div class="about">
-                        <p><h2>О нас</h2>
-                        Кафе "Уютное Место" – это идеальное место для встречи с друзьями, семейных ужинов и романтических вечеров. Мы предлагаем широкий ассортимент блюд и напитков на любой вкус.</p>
+                        <h2>О нас</h2>
+                        <p>Кафе "Уютное Место" – это идеальное место для встречи с друзьями, семейных ужинов и романтических вечеров. Мы предлагаем широкий ассортимент блюд и напитков на любой вкус.</p>
                     </div>
-                </div>
-                    
+                </div> 
                 <div class="content">
                     <h2>Наше меню</h2>
                     <div class="menu">
                         <div class="card">
                             <div>
-                                <img src="./salad.jpg" alt="salad" width="150" height="100">
+                                <img class=card_img src="./assets/images/salad.jpg" alt="salad">
                             </div>
                             <div class="description">
-                            <h3 class="naming">Салат "Цезарь"</h3>
-                            <p>350 ₽</p> 
-                            <p>Классический салат с курицей, листом салата, пармезаном и сухариками.</p>
+                                <h3 class="naming">Салат "Цезарь"</h3>
+                                <p>350 ₽</p> 
+                                <p>Классический салат с курицей, листом салата, пармезаном и сухариками.</p>
                             </div> 
                         </div>
                         <div class="card">
                             <div>
-                                <img src="./bruschetta.jpg" alt="bruschetta" width="150" height="100">
+                                <img class=card_img src="./assets/images/bruschetta.jpg" alt="bruschetta">
                             </div>
                             <div class="description">
                                 <h3 class="naming">Брускетта с помидорами</h3>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="./steak.jpg" alt="steak" width="150" height="100">
+                                <img class=card_img src="./assets/images/steak.jpg" alt="steak">
                             </div>
                             <div class="description">
                                 <h3 class="naming">Стейк рибай</h3>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="card">
                             <div>
-                                <img src="./pasta.jpg" alt="pasta" width="150" height="100">
+                                <img class=card_img src="./assets/images/pasta.jpg" alt="pasta">
                             </div>
                             <div class="description">
                                 <h3 class="naming">Паста карбонара</h3>
@@ -64,31 +64,34 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
                 <div>
                     <div class="sidebar">
                         <h2 class="naming">Контакты</h2>
                         <div>
-                            <p> <strong>Адрес:</strong> ул. Пушкина, д. 19, Москва</p>
-                            <p> <strong>Телефон:</strong> +7 (495) 123-45-67</p>
+                            <span class="naming_contacts_strong">Адрес:</span>
+                            <span> ул. Пушкина, д. 19, Москва</span>
                         </div>
-                        <h2 class="naming">График работы:</h2>
+                        <div>
+                            <span class="naming_contacts_strong">Телефон: </span>
+                            <span> +7 (495) 123-45-67</span>
+                        </div>
+                        <h2 class="naming">График работы: </h2>
                         <div>
                             <p>Понедельник - Пятница: 9:00 - 22:00</p><br>
                             <p>Суббота: 10:00 - 23:00</p><br>
                             <p>Воскресенье: 10:00 - 21:00</p>
                         </div>
                         <h2 class="naming">Социальные сети</h2>
-                        <div>
-                            <a href="ВКонтакте">ВКонтакте</a><br>
-                            <a href="Telegram">Telegram</a><br>
+                        <div class="naming_link">
+                            <a href="ВКонтакте">ВКонтакте</a>
+                            <a href="Telegram">Telegram</a>
                             <a href="Я. Карты">Я. Карты</a>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
+        </div>
             <div class="footer">
                 <p>© 2024 Кафе "Уютное Место". Все права защищены.</p>
             </div>
